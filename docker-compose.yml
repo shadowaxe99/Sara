@@ -1,0 +1,12 @@
+
+version: '3'
+services:
+  python-flask-app:
+    build: ./Python
+    ports:
+      - "5000:5000"
+
+  typescript-app:
+    build: ./TypeScript
+    ports:
+      - "3000:3000"
